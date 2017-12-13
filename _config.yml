@@ -1,1 +1,37 @@
-theme: jekyll-theme-slate
+name: 学习项目
+description: "Jekyll Bulma Theme, Bulma.io CSS Framework Jekyll Template for Developers"
+baseurl: /jekyll-bulma
+url: http://erayaydin.github.io
+download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
+social:
+  github: laoyangwhy
+  email: whysummer@sohu.com
+author:
+  name: Eray AYDIN
+  bio: "Senior PHP Developer and Linux System Administrator, Free Software Fan, Archy (On Way Trust User), Junior Game Developer"
+  email: aydineray@mail.com
+  image: /jekyll-bulma/assets/images/author.jpg
+  github: erayaydin
+  facebook: erayaydi
+  twitter: erayaydi
+  instagram:
+  tumblr:
+  show_on_post: true
+permalink: /:categories/:title/
+sass:
+  style: compressed
+paginate: 5
+paginate_path: "/:num/"
+markdown: kramdown
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-gist
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
