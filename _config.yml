@@ -1,6 +1,6 @@
 name: 学习项目
 description: "Jekyll Bulma Theme, Bulma.io CSS Framework Jekyll Template for Developers"
-baseurl: /jekyll-bulma
+baseurl: /helloworld
 url: http://erayaydin.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
 social:
